@@ -1,0 +1,28 @@
+.bottom-block {
+  display: flex;
+  background-image: linear-gradient(-225deg, #2eb7ce 0%, #4296cb 100%);
+  height: 230px;
+}
+.bottontext {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bottombtn {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.bottombtn Button {
+  padding: 14px 58px;
+  color: aliceblue;
+  border-radius: 0px;
+  border: none;
+}
+.bottontext {
+  font-size: 30px;
+  color: white;
+  padding-right: 100px;
+}

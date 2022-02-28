@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Open+Sans:wght@500&display=swap");
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+.Sidemenu {
+  width: 15%;
+  position: fixed;
+  display: block;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+.hide {
+  display: none;
+}
+.search {
+  background-color: #313443;
+  color: white;
+  height: 100px;
+}
+
+.side-content {
+  background-color: #212432;
+  height: 100vh;
+  padding: 50px 20px;
+}
+.side-section {
+  border-bottom: 1px solid #3a3d4d;
+}
+
+.side-section span p {
+  color: #a7aabb;
+}
+
+.side-section p {
+  color: white;
+  font-size: 13px;
+}

@@ -1,0 +1,66 @@
+.Block1 {
+  position: relative;
+  border-bottom: 1px solid rgb(235, 231, 231);
+}
+
+.block-ctn1 {
+  width: 100%;
+  display: flex;
+}
+
+.image1 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.content1 {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.content1 p {
+  padding: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 35px;
+  bottom: 60px;
+}
+
+.Block2 {
+  width: 100%;
+  display: flex;
+}
+.image2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.content2 {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.content2 p {
+  padding: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 35px;
+  bottom: 60px;
+}
+.btn-1 {
+  position: absolute;
+  bottom: 25%;
+  left: 4%;
+}
