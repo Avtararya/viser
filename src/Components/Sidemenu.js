@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Sidemenu.css";
 
 const Sidemenu = ({ z, a }) => {

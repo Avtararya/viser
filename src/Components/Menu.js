@@ -1,5 +1,6 @@
 import "./Menu.css";
 import Dropdown from "./Dropdown";
+import { useEffect } from "react";
 
 export default function Menu({ z, a }) {
   const dtitle = [
@@ -19,6 +20,15 @@ export default function Menu({ z, a }) {
 
   const workouts = dtitle.filter((d) => d.type === "WORKOUTS");
   const fitness = dtitle.filter((d) => d.type === "FITNESS");
+
+  useEffect(() => {
+    const setSideMenu = () => {
+      z(!a);
+    };
+    return () => {
+      z(false);
+    };
+  });
 
   return (
     <div className="ct">
@@ -45,10 +55,10 @@ export default function Menu({ z, a }) {
             alt=""
           />
         </div>
-        <div onClick={() => z(!a)} className="mobile-button">
-          <i class={a ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
-        </div>
+        {/* <div onClick={setSideMenu} className="mobile-button"> */}
+        <i class={a ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
       </div>
     </div>
+    // </div>
   );
 }

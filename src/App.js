@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Menu z={setShowButton} a={showButton} />
-      <Sidemenu z={setShowButton} a={showButton} />
+      {/* <Sidemenu z={setShowButton} a={showButton} /> */}
       <Banner />
       <Block
         imagesrc="https://d18zdz9g6n5za7.cloudfront.net/home/feature-1.jpg"
