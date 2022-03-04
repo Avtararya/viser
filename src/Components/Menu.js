@@ -56,7 +56,7 @@ export default function Menu({ z, a }) {
           />
         </div>
         {/* <div onClick={setSideMenu} className="mobile-button"> */}
-        <i class={a ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+        {/* <i class={a ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i> */}
       </div>
     </div>
     // </div>
