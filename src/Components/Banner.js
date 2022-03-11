@@ -7,7 +7,7 @@ export default function Banner() {
     <div className="Banner">
       <div className="banner-image">
         <img
-          src="https://d18zdz9g6n5za7.cloudfront.net/home/home-masthead-20201031-1340.webp"
+          src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
           alt=""
         />
         <div className="img-text">
@@ -15,9 +15,8 @@ export default function Banner() {
         </div>
       </div>
       <div class="blank">
-        <h1>1</h1>
+        <Box />
       </div>
-      <Box />
     </div>
   );
 }

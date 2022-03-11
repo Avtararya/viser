@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .box {
@@ -50,4 +51,26 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .numbers h1 {
+    color: #91eeda;
+    font-size: 55px;
+    font-weight: 300;
+  }
+  .numbers p {
+    font-size: 15px;
+    color: #ced0db;
+    text-align: center;
+  }
+  .numbers {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200) {
+  .numbers {
+    padding-right: 15px;
+  }
 }

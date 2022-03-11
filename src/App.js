@@ -18,20 +18,20 @@ function App() {
       <Menu z={setShowButton} a={showButton} />
       {/* <Sidemenu z={setShowButton} a={showButton} /> */}
       <Banner />
-      <Block
+      {/* <Block
         imagesrc="https://d18zdz9g6n5za7.cloudfront.net/home/feature-1.jpg"
         color="white"
-      />
+      /> */}
 
-      <Block1
+      {/* <Block1
         imagesrc="https://cloudfront.fitnessblender.com/assets/img/fbplus/fbplus-what-is-2020.jpg "
         color="white"
-      />
+      /> */}
       <Black1 />
-      <Block1
+      {/* <Block1
         imagesrc="https://d18zdz9g6n5za7.cloudfront.net/home/home-testimonial.jpg"
         color="#F2F6F9"
-      />
+      /> */}
       <BottomBlock />
       <Footer />
     </>

@@ -1,11 +1,11 @@
 .banner-image img {
-  width: 90%;
+  width: 100%;
   height: 95vh;
   background-size: cover;
 }
 .blank {
   z-index: 1;
-  width: 100%;
+  /* width: 100%; */
   height: 150px;
   background-color: #f0f4f6;
 }
@@ -21,15 +21,25 @@
 .img-text {
   display: flex;
 }
-.banner-image {
-  background-color: #2cd9d1;
-}
-
-.banner {
-  background-color: aqua;
-}
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 1350px) {
   .img-text p {
     display: none;
   }
+  .banner-image img {
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+  }
+
+  .blank {
+    width: 100%;
+    height: 100%;
+  }
 }
+
+/* @media screen and (max-width: 1050px) {
+  .blank {
+    width: 100%;
+    height: 80%;
+  }
+} */

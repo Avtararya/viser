@@ -2,6 +2,7 @@
   display: flex;
   background-image: linear-gradient(-225deg, #2eb7ce 0%, #4296cb 100%);
   height: 230px;
+  padding: 10%;
 }
 .bottontext {
   display: flex;
@@ -25,4 +26,18 @@
   font-size: 30px;
   color: white;
   padding-right: 100px;
+}
+
+@media screen and (max-width: 1050px) {
+  .bottom-block {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bottontext {
+    padding-right: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+  }
 }

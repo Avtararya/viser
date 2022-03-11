@@ -2,7 +2,7 @@ import "./Box.css";
 
 const Display = () => {
   return (
-    <>
+    <div className="box5">
       <div className="main-container">
         <div className="item">
           <h1>Lorem, ipsum</h1>
@@ -33,7 +33,7 @@ const Display = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
